@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Button mở DetailActivity -->
+    <Button
+        android:id="@+id/btnOpenDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Detail Activity"
+        android:backgroundTint="#00008B"
+        android:layout_centerInParent="true" />
+
+    <!-- Button chia sẻ văn bản -->
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Text"
+        android:layout_below="@id/btnOpenDetail"
+        android:backgroundTint="#00008B"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button mở DetailActivity với startActivityForResult -->
+    <Button
+        android:id="@+id/btnStartForResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start For Result"
+        android:layout_below="@id/btnShare"
+        android:backgroundTint="#00008B"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
+
